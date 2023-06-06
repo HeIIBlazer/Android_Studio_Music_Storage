@@ -11,13 +11,14 @@
         android:layout_width="265dp"
         android:layout_height="52dp"
         android:gravity="center"
-        android:text="13.02.1998"
+        android:text=""
         android:textSize="60px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
         app:layout_constraintVertical_bias="0.068" />
+
     <Button
         android:id="@+id/Previous"
         android:layout_width="wrap_content"
@@ -26,7 +27,7 @@
         android:text="Previous"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintHorizontal_bias="0.019"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.89" />
@@ -39,7 +40,7 @@
         android:text="Next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.798"
+        app:layout_constraintHorizontal_bias="0.941"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.89" />
@@ -49,7 +50,7 @@
         android:layout_width="263dp"
         android:layout_height="55dp"
         android:gravity="center"
-        android:text="2Pac"
+        android:text=""
         android:textSize="60px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -95,7 +96,7 @@
         android:layout_height="44dp"
         android:layout_marginTop="24dp"
         android:gravity="center"
-        android:text="All Eyez On Me"
+        android:text=""
         android:textSize="60px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -123,16 +124,16 @@
         android:id="@+id/application_Name"
         android:layout_width="298dp"
         android:layout_height="75dp"
-        android:text="Music Storage"
         android:gravity="center"
+        android:text="Music Storage"
         android:textSize="120px"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.082" />
+        app:layout_constraintVertical_bias="0.086" />
 
     <Button
         android:id="@+id/Update"
@@ -211,5 +212,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.998" />
+
+    <Button
+        android:id="@+id/Go_To"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to full list"
+        android:onClick="onClickGo_To"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.89" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
